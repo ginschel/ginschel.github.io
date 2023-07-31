@@ -1,0 +1,61 @@
+body {
+	background-color: black;
+	color: white;
+	font-family:Garamond, Georgia, serif;
+	}
+main {
+	max-width: 800px;
+	margin: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+}
+h1 {
+	color: #e66100;
+}
+img {
+		text-align: center;
+		margin: auto; display: block;
+}
+	
+	
+strong {
+	color: #FFEF00;
+	
+}
+a {
+	text-decoration: none; color: lightblue;      
+}
+a:hover {
+		text-shadow: 0 0 10px #008ae6, 0 0 20px #008ae6, 0 0 30px #007acc;
+	
+}
+h1:hover {
+		text-shadow: 0 0 10px #fa7115, 0 0 20px #fb8537;
+	
+	
+} 
+.categories  { text-align: center; padding-bottom: 1em;  margin-top: 5em;  }
+#nextprev { padding-bottom:1em; }
+br.clear { clear:both; }
+#prevart {
+float:left;
+	text-align:left;
+}
+#nextart {
+	float:right;
+	text-align:right;
+}
+blockquote {
+		border-left: 0.35rem solid #e66100;
+		padding: 0 1rem 0;
+}
+footer {
+	text-align: center;
+}
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
